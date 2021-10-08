@@ -6,6 +6,13 @@ body {
   color: white;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 h1 {
   color: grey;
   font-family: verdana;
