@@ -34,7 +34,7 @@ function compute() {
         let principalText = "If you deposit \<mark\>" + principal + "\</mark\>,\<br\>";
         let rateText = "at an interest rate of  \<mark\>" + rate + "\</mark\>,\<br\>";
         let interestText = "You will receive an amount of  \<mark\>" + interest + "\</mark\>,\<br\>";
-        let yearText = "in the year \<mark\>" + year + "\</mark\>,\<br\>";
+        let yearText = "in the year \<mark\>" + year + "\</mark\>\<br\>";
         
         // set result innerhtml using text from the generated text
         document.getElementById("result").innerHTML = principalText + rateText + interestText + yearText;

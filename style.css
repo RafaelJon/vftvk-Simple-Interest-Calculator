@@ -33,4 +33,18 @@ h1 {
 
 #calculator-form button {
   margin: 5px 0;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  transition: .3s;
+}
+
+#calculator-form button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: green;
+  transition: .3s;
 }
